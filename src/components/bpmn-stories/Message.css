@@ -1,0 +1,57 @@
+.bpmn-story-message-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.bpmn-story-message-right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.bpmn-story-message-card-left,
+.bpmn-story-message-card-right {
+  color: white;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  max-width: 88%;
+  width: fit-content;
+}
+
+.bpmn-story-message-card-left {
+  margin-left: 0.5rem;
+}
+
+.bpmn-story-message-card-right {
+  margin-right: 0.5rem;
+}
+
+.bpmn-story-message-name {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.bpmn-story-message-icon {
+  font-size: xx-large;
+  margin: auto 0 0.5rem 0;
+}
+
+.bpmn-story-message-color-0 {
+  background-color: #1f2a44;
+}
+
+.bpmn-story-message-color-1 {
+  background-color: #c54302;
+}
+
+.bpmn-story-message-color-2 {
+  background-color: #003c53;
+}
+
+.bpmn-story-message-color-3 {
+  background-color: #420021;
+}

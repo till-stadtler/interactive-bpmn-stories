@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "text": "# Dummy",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1m8f29b",
+        "columns": null
+      },
+      "id": "Field_1dwdyly"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1l1j8og",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.4.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.19.0"
+  },
+  "schemaVersion": 14
+}
