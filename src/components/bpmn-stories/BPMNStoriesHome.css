@@ -7,7 +7,7 @@
 
 .bpmn-stories-home-left {
   padding: 1rem 1rem 1rem 1rem;
-  background-color: #0e2a38ff;
+  background-color: #202b45;
   grid-column-start: 1;
   grid-column-end: 2;
   color: white;
@@ -42,7 +42,7 @@
   height: 15rem;
   padding: 0.5rem;
   background: red;
-  background: linear-gradient(to left, #d2ff1cff 50%, #c429ccff 50%) right;
+  background: linear-gradient(to left, #d2ff1d 50%, #c629cd 50%) right;
   background-size: 200%;
   transition: 0.3s ease-out;
   text-decoration: none;
@@ -60,6 +60,7 @@
   justify-content: space-between;
   text-decoration: none;
   border-radius: 0.2rem;
+  font-size: smaller;
 }
 
 .bpmn-stories-home-card-story h2 {
@@ -89,7 +90,7 @@
 }
 
 .active-tag {
-  background-color: #c54302;
+  background-color: #fc5d0d;
 }
 
 .inactive-tag {
@@ -100,7 +101,7 @@
 .bpmn-stories-home-container button:focus,
 .bpmn-stories-home-container button:focus-visible,
 .bpmn-stories-home-container button.focus-color {
-  color: #c54302;
+  color: #fc5d0d;
 }
 
 .bpmn-stories-home-tags {
@@ -145,7 +146,7 @@
   border-radius: 0;
   height: 30px;
   width: 14px;
-  background: #c54302;
+  background: #fc5d0d;
   border: 1px solid black;
 }
 
@@ -169,7 +170,7 @@
 }
 
 .mobile-cta {
-  color: #fc5d0dff;
+  color: #d2ff1d;
   font-size: x-large;
   font-weight: 600;
 }

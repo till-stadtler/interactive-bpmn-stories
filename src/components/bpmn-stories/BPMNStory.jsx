@@ -167,35 +167,39 @@ export function BPMNStory(props) {
           />
         </div>
         <div className="bpmn-stories-left-bottom-box">
-          <h3>{props.title}</h3>
-          <p>{props.description}</p>
-          <div className="bpmn-stories-difficulty">
-            {props.difficulty.bpmn > 0 ? (
-              <StarRating
-                skill="BPMN"
-                valueMin="0"
-                valueMax={props.difficulty.bpmn}
-              />
-            ) : null}
-            {props.difficulty.dmn > 0 ? (
-              <StarRating
-                skill="DMN"
-                valueMin="0"
-                valueMax={props.difficulty.dmn}
-              />
-            ) : null}
-            {props.difficulty.forms > 0 ? (
-              <StarRating
-                skill="Forms"
-                valueMin="0"
-                valueMax={props.difficulty.forms}
-              />
-            ) : null}
+          <div>
+            <h3>{props.title}</h3>
+            <p>{props.description}</p>
           </div>
-          <div className="bpmn-stories-tags" style={{ marginBottom: "3rem" }}>
-            {props.tags.map((tag) => {
-              return <div key={tag}>{tag}</div>;
-            })}
+          <div>
+            <div className="bpmn-stories-difficulty">
+              {props.difficulty.bpmn > 0 ? (
+                <StarRating
+                  skill="BPMN"
+                  valueMin="0"
+                  valueMax={props.difficulty.bpmn}
+                />
+              ) : null}
+              {props.difficulty.dmn > 0 ? (
+                <StarRating
+                  skill="DMN"
+                  valueMin="0"
+                  valueMax={props.difficulty.dmn}
+                />
+              ) : null}
+              {props.difficulty.forms > 0 ? (
+                <StarRating
+                  skill="Forms"
+                  valueMin="0"
+                  valueMax={props.difficulty.forms}
+                />
+              ) : null}
+            </div>
+            <div className="bpmn-stories-tags">
+              {props.tags.map((tag) => {
+                return <div key={tag}>{tag}</div>;
+              })}
+            </div>
           </div>
         </div>
         <section className="bpmn-stories-right-box">

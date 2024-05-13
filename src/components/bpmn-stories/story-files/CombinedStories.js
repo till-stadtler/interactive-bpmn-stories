@@ -7,6 +7,12 @@ import { Group6 } from "./Group6";
 import { Group7 } from "./Group7";
 import { Group8 } from "./Group8";
 import { Group9 } from "./Group9";
+import { Group10 } from "./Group10";
+import { Group11 } from "./Group11";
+import { Group12 } from "./Group12";
+import { Group13 } from "./Group13";
+import { Group14 } from "./Group14";
+import { Group15 } from "./Group15";
 
 export const CombinedStories = [
   ...Group1,
@@ -18,4 +24,10 @@ export const CombinedStories = [
   ...Group7,
   ...Group8,
   ...Group9,
+  ...Group10,
+  ...Group11,
+  ...Group12,
+  ...Group13,
+  ...Group14,
+  ...Group15,
 ];
