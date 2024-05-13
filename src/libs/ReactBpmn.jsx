@@ -49,8 +49,8 @@ export function ReactBpmn({ url }) {
       bpmnViewer.importXML(bpmnXML);
 
       bpmnViewer.on("import.done", (event) => {
-        // bpmnViewer.get("canvas").zoom("fit-viewport");
-        // bpmnViewer.get("zoomScroll").stepZoom(-0.2);
+        bpmnViewer.get("canvas").zoom("fit-viewport");
+        bpmnViewer.get("zoomScroll").stepZoom(-0.2);
       });
     }
   }, [bpmnXML]);
